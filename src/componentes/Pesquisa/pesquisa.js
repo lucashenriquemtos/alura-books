@@ -27,7 +27,9 @@ function Pesquisa() {
         <PesquisaContainer>
             <Titulo>Já sabe por onde começar?</Titulo>
             <SubTitulo>Encontre seu livro em nossa estante</SubTitulo>
-            <Input placeholder="Digite sua próxima leitura"/>
+            <Input
+                onBlur={event => event.target.value}
+                placeholder="Digite sua próxima leitura"/>
         </PesquisaContainer>
     )
 }
