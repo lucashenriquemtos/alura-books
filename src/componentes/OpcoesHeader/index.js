@@ -11,7 +11,6 @@ const Opcao = styled.li`
         padding: 0 5px;
         cursor: pointer;
         min-width: 120px;
-        margin-right: 10px;
 `
 const Opcoes = styled.ul`
         display: flex;
